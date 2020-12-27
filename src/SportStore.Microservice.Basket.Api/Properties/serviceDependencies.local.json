@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "appInsights1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('resourceGroupName')]/providers/Microsoft.Insights/components/SportStore.Micrsoservice.Basket.Api",
+      "type": "appInsights.azure",
+      "connectionId": "APPINSIGHTS_INSTRUMENTATIONKEY",
+      "secretStore": null
+    }
+  }
+}

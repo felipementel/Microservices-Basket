@@ -1,0 +1,80 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30406.217
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - AppService", "1 - AppService", "{13BDB707-672F-4C39-9319-3D3997B25D29}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{4881B7AA-5C05-4BE7-B886-E07EFAFA7C17}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{AC6AF360-8EEE-4944-AD73-73B87A811DA2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infrastructure", "4 - Infrastructure", "{9441C791-1BAD-463F-8B34-7682B8327E93}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1 - CrossCutting", "4.1 - CrossCutting", "{3EC10D3C-875D-4AB4-AC65-6390EC8702EF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2 - Data", "4.2 - Data", "{D823C8AC-63B0-47A0-8D22-163C5BC777B4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SportStore.Microservice.Basket.Api", "SportStore.Microservice.Basket.Api\SportStore.Microservice.Basket.Api.csproj", "{CD146C88-EAA7-4E34-812E-2B24485B8066}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SportStore.Microservice.Basket.Application", "SportStore.Microservice.Basket.Application\SportStore.Microservice.Basket.Application.csproj", "{B528B088-1CFC-4013-8595-97A6691FE465}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SportStore.Microservice.Basket.Domain", "SportStore.Microservice.Basket.Domain\SportStore.Microservice.Basket.Domain.csproj", "{3E0D5D6C-54EF-4713-8F05-B5EAE1158BAF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SportStore.Microservice.Basket.Infra.CrossCutting", "SportStore.Microservice.Basket.CrossCutting\SportStore.Microservice.Basket.Infra.CrossCutting.csproj", "{4E9EDD79-54FB-41A7-BC93-3F21DF41E37E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SportStore.Microservice.Basket.Infra.Data", "SportStore.Microservice.Basket.Data\SportStore.Microservice.Basket.Infra.Data.csproj", "{D2A1BF32-3EAB-437C-958D-B5C3D983CFC8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.3 - MessageBroker", "4.3 - MessageBroker", "{0682F7A6-18AC-442D-9692-4A5F9D2B6C04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportStore.Microservice.Basket.MessageBroker", "SportStore.Microservice.Basket.MessageBroker\SportStore.Microservice.Basket.MessageBroker.csproj", "{86BE2F95-3BE1-419B-9E0E-AFAF1D287A6F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD146C88-EAA7-4E34-812E-2B24485B8066}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD146C88-EAA7-4E34-812E-2B24485B8066}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD146C88-EAA7-4E34-812E-2B24485B8066}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD146C88-EAA7-4E34-812E-2B24485B8066}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B528B088-1CFC-4013-8595-97A6691FE465}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B528B088-1CFC-4013-8595-97A6691FE465}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B528B088-1CFC-4013-8595-97A6691FE465}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B528B088-1CFC-4013-8595-97A6691FE465}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E0D5D6C-54EF-4713-8F05-B5EAE1158BAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E0D5D6C-54EF-4713-8F05-B5EAE1158BAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E0D5D6C-54EF-4713-8F05-B5EAE1158BAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E0D5D6C-54EF-4713-8F05-B5EAE1158BAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E9EDD79-54FB-41A7-BC93-3F21DF41E37E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E9EDD79-54FB-41A7-BC93-3F21DF41E37E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E9EDD79-54FB-41A7-BC93-3F21DF41E37E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E9EDD79-54FB-41A7-BC93-3F21DF41E37E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2A1BF32-3EAB-437C-958D-B5C3D983CFC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2A1BF32-3EAB-437C-958D-B5C3D983CFC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2A1BF32-3EAB-437C-958D-B5C3D983CFC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2A1BF32-3EAB-437C-958D-B5C3D983CFC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86BE2F95-3BE1-419B-9E0E-AFAF1D287A6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86BE2F95-3BE1-419B-9E0E-AFAF1D287A6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86BE2F95-3BE1-419B-9E0E-AFAF1D287A6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86BE2F95-3BE1-419B-9E0E-AFAF1D287A6F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3EC10D3C-875D-4AB4-AC65-6390EC8702EF} = {9441C791-1BAD-463F-8B34-7682B8327E93}
+		{D823C8AC-63B0-47A0-8D22-163C5BC777B4} = {9441C791-1BAD-463F-8B34-7682B8327E93}
+		{CD146C88-EAA7-4E34-812E-2B24485B8066} = {13BDB707-672F-4C39-9319-3D3997B25D29}
+		{B528B088-1CFC-4013-8595-97A6691FE465} = {4881B7AA-5C05-4BE7-B886-E07EFAFA7C17}
+		{3E0D5D6C-54EF-4713-8F05-B5EAE1158BAF} = {AC6AF360-8EEE-4944-AD73-73B87A811DA2}
+		{4E9EDD79-54FB-41A7-BC93-3F21DF41E37E} = {3EC10D3C-875D-4AB4-AC65-6390EC8702EF}
+		{D2A1BF32-3EAB-437C-958D-B5C3D983CFC8} = {D823C8AC-63B0-47A0-8D22-163C5BC777B4}
+		{0682F7A6-18AC-442D-9692-4A5F9D2B6C04} = {9441C791-1BAD-463F-8B34-7682B8327E93}
+		{86BE2F95-3BE1-419B-9E0E-AFAF1D287A6F} = {0682F7A6-18AC-442D-9692-4A5F9D2B6C04}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1F549AEB-FB43-4A3F-9F3E-46E25C997097}
+	EndGlobalSection
+EndGlobal

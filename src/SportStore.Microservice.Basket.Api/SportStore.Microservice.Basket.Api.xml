@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SportStore.Microservice.Basket.Api</name>
+    </assembly>
+    <members>
+        <member name="M:SportStore.Microservice.Basket.Api.Settings.SwaggerConfigs.UseConfigureSwaggerBasket(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Mvc.ApiExplorer.IApiVersionDescriptionProvider)">
+            <summary>
+            Configura o Swagger
+            </summary>
+            <param name="app">Aplicação</param>
+        </member>
+    </members>
+</doc>

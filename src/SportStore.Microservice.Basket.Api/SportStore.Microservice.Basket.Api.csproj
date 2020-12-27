@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <ApplicationInsightsResourceId>/subscriptions/9694ce79-df16-4fb0-b5a9-872ddd8757f5/resourcegroups/Felipementel-Microservice/providers/Microsoft.Insights/components/SportStore.Micrsoservice.Basket.Api</ApplicationInsightsResourceId>
+    <UserSecretsId>627ec3d9-7184-452b-bdce-a058071d9ced</UserSecretsId>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>D:\_MitArq\IAMandMicroservices\srcBasket\SportStore.Microservice.Basket.Api\SportStore.Microservice.Basket.Api.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="SportStore.Microservice.Basket.Api.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="SportStore.Microservice.Basket.Api.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.0.1" />
+    <PackageReference Include="IdentityServer4.AccessTokenValidation" Version="3.0.1" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.14.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer" Version="4.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Caching.StackExchangeRedis" Version="3.1.7" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.5.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SportStore.Microservice.Basket.Application\SportStore.Microservice.Basket.Application.csproj" />
+    <ProjectReference Include="..\SportStore.Microservice.Basket.CrossCutting\SportStore.Microservice.Basket.Infra.CrossCutting.csproj" />
+  </ItemGroup>
+
+
+</Project>
